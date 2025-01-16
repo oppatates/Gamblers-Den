@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamblers Den</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/utils.css">
+    <link rel="stylesheet" href="./assets/modern/normalized.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap" rel="stylesheet">
+    
+
+    
+</head>
+<body>
+<header class="header container">
+    <h1>Gamblers Den</h1>
+    
+
+</header>
+<main>
+    <section class="hero container">
+        <img class="khajiit" src="./assets/khajiit.webp" alt="Khajiit">
+        <p class="hero__text">Ah, greetings, Walker! This one brings you a tool most useful for your adventures—whether rolling the dice of fate or summoning numbers from the Oblivion. Perfect for your tabletop games, 
+            this magic shall decide battles, unlock treasures, and guide your path. May the Alkosh shine favorably upon your rolls, and may fortune always walk at your side. But remember, 
+            this one knows that luck is fickle, so use this wisely! Happy adventuring!</p>
+    </section> 
+    <section class="rolls container">
+        <h2>Rolls</h2>
+
+        <h3>Roll a number between</h3>
+        <form class="form">
+            <input class="input" placeholder="Min" type="text"  id="min" required >
+            <input class="input" placeholder="Max" type="text"  id="max" required >
+            <input class="btn" onClick="randomNumber()" type="button" value="Roll">
+        </form>
+        <em><span id="result"></span></em>
+        <script src="script.js" async defer></script>
+    
+        
+        
+    </section>
+
+</main>
+<footer><p>Designed by Atakan Arpacı</p></footer>
+ 
+</body>
+</html>

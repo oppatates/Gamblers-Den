@@ -1,0 +1,290 @@
+::placeholder{
+    color: white;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    user-select: none;
+}
+button {
+    display: inline-block;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: inherit;
+}
+
+body {
+    
+    font-family: 'Outfit';
+    font-weight: 400;
+    background-color: #3d3d3d;
+    color: rgb(209, 208, 208);
+    background-size: 100%;
+    background-position-y: 0px, 400px;
+    margin:0;
+    padding: 0;
+    
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    margin-top: 1rem;
+    font-size: 4rem;
+    font-family: "Rouge Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#bb8135;
+}
+h2{
+    margin: 0;
+    font-size: 3rem;
+    font-family: "Rouge Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#bb8135;
+}
+
+h3{
+    margin: 0;
+    font-size: 2rem;
+    font-family: "Rouge Script", serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#bb8135;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    gap: 1rem;
+
+}
+
+
+.khajiit{
+    width: 15rem;
+    border-radius: 5rem;
+    opacity: 90%;
+}
+.input {
+    width: 15rem;
+    height: 100%;
+    background: #bb8135;
+    border: none;
+    color: white;
+    border-radius: 2em;
+    padding: 0.875rem;
+    outline: none;
+    font-size:var(--size-base);
+    margin-bottom: 1rem; 
+}
+.btn {
+    width: 5rem;
+}
+.rolls{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 1rem;
+   
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.875rem;
+}
+
+@media (min-width: 475px) {
+    h1 {
+        font-size: 4.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .khajiit {
+        width: 18rem;
+    }
+    .input {
+        width: 16rem;
+    }
+    .btn {
+        width: 5.5rem;
+    }
+}
+
+@media (min-width: 640px) {
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 1.8rem;
+    }
+    .khajiit {
+        width: 20rem;
+    }
+    .input {
+        width: 10rem;
+    }
+    .btn {
+        width: 6rem;
+    }
+    .hero__text{
+        width: 70%;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .khajiit {
+        width: 22rem;
+    }
+    .input {
+        width: 18rem;
+    }
+    .btn {
+        width: 6.5rem;
+    }
+    .hero__text{
+        width: 60%;
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2.2rem;
+    }
+    .khajiit {
+        width: 24rem;
+    }
+    .input {
+        width: 19rem;
+    }
+    .btn {
+        width: 7rem;
+    }
+    .hero__text{
+        width: 60%;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1280px) {
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 2.5rem;
+    }
+    .khajiit {
+        width: 26rem;
+    }
+    .input {
+        width: 20rem;
+    }
+    .btn {
+        width: 7.5rem;
+    }
+    .hero__text{
+        width: 50%;
+        
+    }
+}
+
+@media (min-width: 1536px) {
+    h1 {
+        font-size: 5rem;
+    }
+    h2 {
+        font-size: 3rem;
+    }
+    h3 {
+        font-size: 3rem;
+    }
+    .khajiit {
+        width: 26rem;
+    }
+    .input {
+        width: 21rem;
+    }
+    .btn {
+        width: 8rem;
+    }
+    .hero__text{
+        width: 40%;
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
+/* xs  */
+/* @media (min-width: 475px) {} */
+
+/* small  */
+/* @media (min-width: 640px) {} */
+
+/* medium  */
+/* @media (min-width: 768px) {} */
+
+
+/* lg  */
+/* @media (min-width: 1024px) {} */
+
+
+/* xl  */
+/* @media (min-width: 1280px) {} */
+
+
+/* 2xl  */
+/* @media (min-width: 1536px) {} */
