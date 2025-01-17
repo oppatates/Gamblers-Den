@@ -31,6 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+//set display flex to fix floating footer and min height 100vh for correct positioning
     
     
 }
@@ -117,7 +118,7 @@ footer {
    
     text-align: center;
     margin-top: auto;
-    
+    //margin auto to top due fixing positioning in small vh devices
     width: 100%;
     font-size: 0.875rem;
 }
